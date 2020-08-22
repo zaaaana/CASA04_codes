@@ -1,0 +1,31 @@
+input_features:
+    -
+        name: Sex_B01ID
+        type: category
+        level: word
+        encoder: parallel_cnn
+        
+    -
+        name: SC_B01ID
+        type: text
+        level: word
+        encoder: parallel_cnn
+    
+    -   name: Age_B04ID
+        type: text
+        encoder: parallel_cnn
+    
+    -   name: IndWkGOR_B02ID
+        type: text
+        encoder: parallel_cnn
+        
+    -   name: HHoldGOR_B02ID
+        type: text
+        encoder: parallel_cnn
+        
+        
+
+output_features:
+    -
+        name: OthWM_B01ID
+        type: category
