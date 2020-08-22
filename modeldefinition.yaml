@@ -1,6 +1,6 @@
 input_features:
     -
-        name: Sex_B01ID
+        name: Sex_B0MaleID
         type: category
         level: word
         encoder: parallel_cnn
